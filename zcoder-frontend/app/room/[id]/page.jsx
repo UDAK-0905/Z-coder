@@ -13,7 +13,6 @@ export default function RoomPage() {
   );
 }
 
-'use client';
 import { useParams } from 'next/navigation';
 import ProtectedRoute from '@/components/ProtectedRoute';
 import CodeEditor from '@/components/CodeEditor';
